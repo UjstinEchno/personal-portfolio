@@ -124,6 +124,7 @@
       display: flex;
       gap: 24px;
     }
+    .nav-short { display: none; }
     .nav-links a {
       font-size: 0.7rem;
       font-weight: 500;
@@ -459,10 +460,14 @@
         gap: 14px;
         flex-wrap: nowrap;
       }
+      .nav-short { display: none; }
       .nav-links a {
         font-size: 0.6rem;
         letter-spacing: 0.08em;
+        white-space: nowrap;
       }
+      .nav-long { display: none; }
+      .nav-short { display: inline; }
 
       /* Hide left col entirely on mobile — nav already has the links */
       .body-grid {
@@ -532,9 +537,9 @@
 <nav class="top-nav">
   <span class="nav-name">Justin Enoch</span>
   <ul class="nav-links">
-    <li><a href="#hits">Quick Hits</a></li>
+    <li><a href="#hits"><span class="nav-long">Quick Hits</span><span class="nav-short">Film</span></a></li>
     <li><a href="#discography">Discography</a></li>
-    <li><a href="#cv">Extended CV</a></li>
+    <li><a href="#cv"><span class="nav-long">Extended CV</span><span class="nav-short">CV</span></a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -577,8 +582,9 @@
     </div>
 
     <div class="left-bottom">
-        <a href="mailto:justin@post-mambo.com" target="_blank">email →</a>
-        <a href="https://www.instagram.com/romanian_soundbath/" target="_blank">Instagram →</a>
+      <a href="/cdn-cgi/l/email-protection#2c46595f5845426c5c435f5801414d414e43024f4341">Email →</a>
+      <a href="https://www.linkedin.com/in/justinenoch/" target="_blank">LinkedIn →</a>
+      <a href="http://ujstinechno.com" target="_blank">Website →</a>
     </div>
 
   </aside>
@@ -1179,8 +1185,9 @@
       </div>
       <div class="footer-col">
         <span class="footer-col-label">Contact</span>
-        <a href="mailto:justin@post-mambo.com"target="_blank">email →</a>
-        <a href="https://www.instagram.com/romanian_soundbath/" target="_blank">Instagram →</a>
+        <a href="/cdn-cgi/l/email-protection#503a252324393e35102235233f253e3423313d203c35237e333f3d"><span class="__cf_email__" data-cfemail="b6dcc3c5c2dfd8f6c6d9c5c29bdbd7dbd4d998d5d9db">[email&#160;protected]</span> →</a>
+        <a href="https://www.linkedin.com/in/justinenoch/" target="_blank">LinkedIn →</a>
+        <a href="http://ujstinechno.com" target="_blank">Website →</a>
       </div>
       <div class="footer-col">
         <span class="footer-col-label">Navigate</span>
